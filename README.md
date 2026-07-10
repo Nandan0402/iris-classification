@@ -1,132 +1,193 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Iris Dataset Classification</title>
-</head>
+# 🌸 Iris Flower Classification using Machine Learning 🌼
 
-<body>
-
-<center>
-
-<h1>🌸 Iris Dataset Classification</h1>
-
-<p>
-Machine Learning Classification Project using Python & Scikit-Learn
+<p align="center">
+  <img src="https://img.icons8.com/color/96/artificial-intelligence.png"/>
+  <img src="https://img.icons8.com/color/96/python.png"/>
+  <img src="https://img.icons8.com/color/96/combo-chart--v1.png"/>
 </p>
 
-<hr width="80%">
-
-<h2>📌 Overview</h2>
-
-<p>
-This project demonstrates a machine learning classification workflow using the famous Iris dataset.
-The objective is to classify iris flowers into different species based on their physical measurements.
+<p align="center">
+  <b>A simple, clean, and beginner-friendly Machine Learning Classification project using the Iris Dataset</b>
 </p>
 
-<hr width="80%">
+---
 
-<h2>🧰 Technologies Used</h2>
+# 🚀 Project Overview
 
-<ul align="left">
-<li>Python</li>
-<li>Pandas</li>
-<li>NumPy</li>
-<li>Matplotlib</li>
-<li>Seaborn</li>
-<li>Scikit-learn</li>
-</ul>
+This project implements an **Iris Flower Classification System** using fundamental **Machine Learning concepts** and **Logistic Regression**.
 
-<hr width="80%">
+The model is developed using **Python, NumPy, Pandas, Matplotlib, Seaborn, and Scikit-learn**, demonstrating the complete Machine Learning workflow including data preprocessing, visualization, model training, testing, and evaluation.
 
-<h2>📂 Dataset Information</h2>
+### Suitable for:
 
-<p><b>Dataset:</b> Iris Dataset</p>
-<p><b>Source:</b> Built-in Dataset from Scikit-learn</p>
-<p><b>Target Variable:</b> Iris Species</p>
+- 🎓 College Mini / Major Projects
+- 💡 Machine Learning Beginners
+- 🧠 Understanding Classification Algorithms
+- 💼 GitHub & LinkedIn Portfolio
 
-<h3>🌼 Classes</h3>
+---
 
-<ul align="left">
-<li>Setosa</li>
-<li>Versicolor</li>
-<li>Virginica</li>
-</ul>
+# 🧠 Problem Statement
 
-<h3>🔑 Features</h3>
+Different Iris flower species have different physical characteristics.
 
-<ul align="left">
-<li>Sepal Length</li>
-<li>Sepal Width</li>
-<li>Petal Length</li>
-<li>Petal Width</li>
-</ul>
+The objective of this project is to classify an Iris flower into one of the three species based on its measurements.
 
-<hr width="80%">
+Machine Learning helps automate this classification process with high accuracy using historical data.
 
-<h2>🔄 Project Workflow</h2>
+---
 
-<ol align="left">
-<li>Import required libraries</li>
-<li>Load the Iris dataset</li>
-<li>Perform exploratory data analysis</li>
-<li>Split data into training and testing sets</li>
-<li>Train classification models</li>
-<li>Evaluate model performance</li>
-<li>Visualize results</li>
-</ol>
+# 📂 Dataset Information
 
-<hr width="80%">
+The dataset used is the **Iris Dataset**, which is available in **Scikit-learn**.
 
-<h2>🧠 Model Used</h2>
+### 📄 Dataset Features
 
-<ul align="left">
-<li>Logistic Regression</li>
-<li>KNN (Extension)</li>
-<li>SVM (Extension)</li>
-<li>Decision Tree (Extension)</li>
-</ul>
+| Column | Description |
+|---------|-------------|
+| 🌿 Sepal Length | Length of the sepal |
+| 🌿 Sepal Width | Width of the sepal |
+| 🌸 Petal Length | Length of the petal |
+| 🌸 Petal Width | Width of the petal |
+| ✅ Species | Target Variable |
 
-<hr width="80%">
+---
 
-<h2>📊 Results</h2>
+## 🌼 Classes
+
+- Setosa
+- Versicolor
+- Virginica
+
+---
+
+# 🛠️ Technologies Used
 
 <p>
-✔ High Accuracy Classification<br>
-✔ Clear Class Separation<br>
-✔ Strong Introduction to Machine Learning
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
+<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
+<img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Seaborn-5B8FB9?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"/>
 </p>
 
-<hr width="80%">
+---
 
-<h2>🚀 Conclusion</h2>
+# 🧠 Methodology
 
-<p>
-This project provides a strong introduction to classification problems and forms the base for more advanced machine learning models.
+- 📥 Import required libraries
+- 📂 Load the Iris dataset
+- 📊 Perform Exploratory Data Analysis (EDA)
+- 🔄 Split the dataset into training and testing sets
+- 🤖 Train the Logistic Regression model
+- 📈 Predict flower species
+- 📊 Evaluate model performance
+- 📉 Visualize classification results
+
+---
+
+# ▶️ How to Run the Project
+
+### 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/Nandan0402/iris-classification.git
+```
+
+### 2️⃣ Navigate to the project directory
+
+```bash
+cd iris-classification
+```
+
+### 3️⃣ Install required libraries
+
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn
+```
+
+### 4️⃣ Run the project
+
+```bash
+python iris_classification.py
+```
+
+or
+
+Open **iris_assignment.ipynb** in Jupyter Notebook and run all cells.
+
+---
+
+# 📈 Model Evaluation
+
+The model performance is evaluated using:
+
+- 📊 Accuracy Score
+- 📉 Confusion Matrix
+- 📋 Classification Report
+
+The Logistic Regression model achieves **high classification accuracy** on the Iris dataset.
+
+---
+
+# 🎯 Learning Outcomes
+
+- Understanding supervised learning
+- Data preprocessing
+- Exploratory Data Analysis
+- Classification using Logistic Regression
+- Model evaluation
+- Data visualization
+- End-to-end Machine Learning workflow
+
+---
+
+# 📌 Use Cases
+
+- 🎓 Academic Mini / Major Project
+- 💼 Machine Learning Portfolio
+- 📚 Classification Algorithm Practice
+- 🧠 Beginner ML Learning
+
+---
+
+# 👤 Author
+
+<p align="center">
+<img src="https://avatars.githubusercontent.com/Nandan0402" width="120"/>
 </p>
 
-<hr width="80%">
-
-<h2>👤 Author</h2>
-
-<img src="https://github.com/Nandan0402.png" width="120" alt="Nandan">
-
-<h3>Nandan</h3>
-
-<p>
-<a href="https://github.com/Nandan0402">GitHub</a>
+<p align="center">
+<b>Nandan B</b>
+<br>
+BCA Student | Machine Learning Enthusiast
 </p>
 
-<p>
-<a href="https://www.linkedin.com/in/nandan0402">LinkedIn</a>
+<p align="center">
+🌐 <a href="https://github.com/Nandan0402">GitHub</a>
+|
+💼 <a href="https://www.linkedin.com/in/nandan0402">LinkedIn</a>
 </p>
 
-<hr width="80%">
+---
 
-<p>© 2026 Nandan</p>
+# ⭐ Conclusion
 
-</center>
+This project provides a strong foundation for understanding Machine Learning classification techniques using the famous Iris Dataset.
 
-</body>
-</html>
+It is an excellent beginner-friendly project that demonstrates the complete machine learning pipeline from data loading to model evaluation.
+
+⭐ If you found this project helpful, consider giving the repository a star.
+
+---
+
+# 📁 Project Structure
+
+```text
+iris-classification/
+│
+├── iris_assignment.ipynb      # Machine Learning Notebook
+├── README.md                  # Project Documentation
+└── LICENSE                    # License File
+```
